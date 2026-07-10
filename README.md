@@ -62,7 +62,7 @@ npm init -y
 ### 2. Install Development Dependencies
 ```bash
 # Install TypeScript 7, Rollup, and required plugins
-npm install --save-dev typescript@^7.0.1-rc rollup glob rimraf
+npm install --save-dev typescript@latest rollup glob rimraf
 npm install --save-dev @rollup/plugin-node-resolve @rollup/plugin-commonjs @rollup/plugin-alias
 
 # Install NetSuite type definitions and testing framework (optional)
