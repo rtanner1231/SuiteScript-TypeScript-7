@@ -44,7 +44,7 @@ export default {
         //we do not need interop boilderplate added for Netsuite modules
         interop: (id) => {
             if (id && id.startsWith('N/')) {
-                return 'defaultOnly';
+                return 'esModule';
             }
             return 'auto'
         }
